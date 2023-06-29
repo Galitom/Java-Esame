@@ -3,10 +3,7 @@ package org.example;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-/**
- * Hello world!
- *
- */
+
 public class Server
 {
     static final int portNumber = 1234;

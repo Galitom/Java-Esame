@@ -43,7 +43,6 @@ public class ClientHandler implements Runnable {
     private Boolean readLoop(BufferedReader in) {
         String s = "";
         try {
-            // READS REQUEST AND RESPONDS
             while ((s = in.readLine()) != null) {
                 System.out.println(s);
 

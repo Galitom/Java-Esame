@@ -16,7 +16,7 @@ public class HTTPServer
         }
 
         server.createContext("/", new MyHandler());
-        server.setExecutor(null); // creates a default executor
+        server.setExecutor(null);
         server.start();
     }
 }
