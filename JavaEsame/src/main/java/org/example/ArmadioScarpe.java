@@ -15,8 +15,8 @@ public class ArmadioScarpe {
     private ArmadioScarpe() {
         listaScarpe.add(new Scarpe(1, "man shoes for winter", 133,  "man"));
         listaScarpe.add(new Scarpe(2, "Football shoes 2009", 120,  "man"));
-        listaScarpe.add(new Scarpe(69, "Black ceremony shoes Walch 2018", 133,  "woman"));
-        listaScarpe.add(new Scarpe(120, "woman shoes for winter", 133,  "woman"));
+        listaScarpe.add(new Scarpe(69, "Black ceremony shoes Walch 2018", 400,  "woman"));
+        listaScarpe.add(new Scarpe(120, "woman shoes for winter", 30,  "woman"));
     }
 
     public static ArmadioScarpe getInstance() {

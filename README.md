@@ -17,3 +17,12 @@ sorted_by_price
 help
 
 Tutti i comandi sono inviati come STRING
+
+HTTP Server Address: http://192.168.154.87:8000
+
+Command list:
+
+/?cmd=for_man
+/?cmd=for_woman
+/?cmd=sorted_by_name
+/?cmd=sorted_by_price
